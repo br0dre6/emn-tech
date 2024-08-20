@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Caviar';
+    src:url('fonts/CaviarDreams.ttf');
+}
+
+@font-face {
+    font-family: 'Poiret';
+    src:url('fonts/PoiretOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src:url('fonts/poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src:url('fonts/poppins/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins2';
+    src:url('fonts/poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins1';
+    src:url('fonts/poppins/Poppins-SemiBold.ttf');
+}

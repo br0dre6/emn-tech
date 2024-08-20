@@ -1,0 +1,17 @@
+img.logo-image{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 2px solid rgb(66,225,152);
+}
+
+.image-label{
+    background-color: rgb(110,110,110);
+}
+
+.input.edit-cms-submit{
+    background-color: rgb(53,86,103);
+    padding-left: 40px;
+    padding-right: 40px;
+}

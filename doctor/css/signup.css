@@ -1,0 +1,104 @@
+body {
+  margin: 7%;
+  background-color: #f6f7fa;
+}
+.container {
+  width: 45%;
+  background-color: white;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 8px;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 3px 5px 0 rgba(240, 240, 240, 0.3);
+  animation: transitionIn-Y-over 0.5s;
+}
+td {
+  text-align: center;
+}
+.header-text {
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+}
+
+.sub-text {
+  font-size: 15px;
+  color: rgb(138, 138, 138);
+}
+
+.form-label {
+  color: rgb(44, 44, 44);
+  text-align: left;
+  font-size: 14px;
+}
+.label-td {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.hover-link1 {
+  font-weight: bold;
+}
+
+.hover-link1:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.login-btn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+span.error-text {
+  color: red;
+}
+
+/* FOR RESET PASSWORD STARTTTTTT*/
+
+#pswd_info {
+  position: relative;
+  bottom: -15px;
+  bottom: -115px\9; /* IE Specific */
+  right: -100px;
+  width: 250px;
+  padding: 15px;
+  background: #fefefe;
+  font-size: 0.875em;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px #ccc;
+  border: 1px solid #ddd;
+  display: none;
+  z-index: 1;
+}
+#pswd_info h4 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-weight: normal;
+}
+#pswd_info::before {
+  content: "\25B2";
+  position: absolute;
+  top: -12px;
+  left: 45%;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ddd;
+  text-shadow: none;
+  display: block;
+}
+
+.invalid {
+  padding-left: 22px;
+  line-height: 24px;
+  color: #ec3f41;
+}
+
+.valid {
+  padding-left: 22px;
+  line-height: 24px;
+  color: #3a7d34;
+}
+
+/* FOR RESET PASSWORD ENDDDDDDD*/

@@ -1,0 +1,341 @@
+.header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0; 
+    padding: 5px 10px; 
+}
+
+.logo img 
+{
+    height: 70px;
+}
+
+.emn-logo-sub 
+{
+    font-weight: bold;
+}
+
+.nav-links 
+{
+    display: flex;
+}
+
+.nav-item 
+{
+    margin-left: 30px; /* Add spacing between the links */
+    font-weight: bold;
+    text-decoration: none; /* Remove underlines from links */
+}
+
+.body2{
+    background-color: rgba(247, 247, 247, 1);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+.full-height {
+    background: rgba(26, 26, 26, 0.548);
+    background-attachment: fixed;
+    max-height: 100vh;
+    height: 100vh;
+
+
+}
+table{
+    width: 100%;
+    padding-top: 5px;
+    
+}
+.heading-text{
+    position: relative;
+    color: white;
+    font-family: 'Caviar';
+    font-size: 150px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 150px;
+    margin-top: 12%;
+    margin-bottom: 0;
+    max-width: 65%;
+}
+
+.sub-text2{
+    position: relative;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 17px;
+    font-family: 'PoppinsRegular';
+    line-height: 27px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+    max-width: 53%;
+}
+
+
+.register-btn{
+    background-color: rgba(240, 248, 255, 0.589);
+    color: #345cc4;
+}
+
+.emn-logo-sub{
+    color: #345cc4;
+    font-size: 16px;
+}
+
+
+.nav-item{
+    padding: 0 25px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    /* animation: transitionIn-Y-over 0.5s; */
+    margin: 0;
+}
+
+.nav-item:hover{
+    color: #3fb7ee;
+}
+
+.header {
+    width: 100%;    
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.intro-container {
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.intro-container td {
+    padding: 15px;
+}
+
+.c-item {
+    height: 400px;
+    width: 80%;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-control-prev {
+    left: 0%;
+ }
+
+.carousel-control-next {
+   left: 65%;
+}
+
+.centertext {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.aboutus-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.aboutus-text {
+    flex: 1;
+    padding: 20px; /* Adjust padding as needed */
+    font-family: 'PoppinsRegular';
+    text-align: justify;
+    padding-right: 12%;
+}
+
+.aboutus-text h1 {
+    font-weight: 600;
+}
+
+.aboutus-carousel {
+    margin-top: 50px;
+    flex: 1;
+    max-height: 100%;
+}
+
+.misvisobj {
+    display: flex;
+    padding: 20px; /* Adjust padding as needed */
+    font-family: 'PoppinsRegular';
+}
+
+.misvisobj-item {
+    text-align: justify;
+    margin-right: auto;
+    padding-right: 7%;
+}
+
+.misvisobj-item h2 {
+    font-weight: 600;
+}
+
+.contactus-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contactus-text {
+    flex: 1;
+    padding: 20px; /* Adjust padding as needed */
+    font-family: 'PoppinsRegular';
+    text-align: justify;
+    padding-right: 5%;
+}
+
+.contactus-text h1 {
+    font-weight: 600;
+}
+
+.contactus-text h4 {
+    font-family: 'PoppinsRegular';
+}
+
+.contactus-text p {
+    font-family: 'PoppinsRegular';
+}
+
+.info-item span {
+    padding-right: 10px; /* Add spacing to the right of the colon */
+    font-weight: 0;
+}
+
+.info-item {
+    display: flex;
+    margin-right: auto;
+}
+
+.form-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form-container{
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.form-box {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid rgb(212, 212, 212);
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+}
+
+.form-boxarea {
+    height: 140px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid rgb(212, 212, 212);
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+}
+
+.contact-details{
+    flex: 1;
+    padding: 20px; /* Adjust padding as needed */
+    font-family: 'PoppinsRegular';
+    text-align: justify;
+}
+
+.label {
+    width: 100px; /* Adjust the width as needed */
+    display: inline-block;
+}
+
+.doctor-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor-info {
+    padding: 20px; /* Adjust padding as needed */
+    font-family: 'PoppinsRegular';
+    text-align: justify;
+    padding-right: 12%;
+    width: 50%;
+    text-align: left;
+}
+
+.doctor-image {
+    width: 50%;
+    text-align: center;
+}
+
+.doctor-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.doctor-info h1,h4 {
+    font-weight: 600;
+}
+
+.opto-intro {
+    padding: 20px;
+    display: flex;
+    font-family: 'PoppinsRegular';
+}
+
+.opto-intro h1 {
+    font-weight: 600;
+}
+
+.nav-itemv2 {
+    padding: 0 25px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none; /* Remove the default underline */
+    margin: 0;
+    position: relative;
+}
+
+/* Create a pseudo-element for the transition effect */
+.nav-itemv2::before {
+    margin: -20px 0;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Adjust the line thickness as needed */
+    background: #3c7bf1; /* Line color */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Add a fade transition effect */
+}
+
+/* Fade in the pseudo-element when hovered */
+.nav-itemv2:hover::before {
+    opacity: 1; /* Fades in on hover */
+}
+
+/* Smooth scrolling behavior */
+html {
+    scroll-behavior: smooth;
+}
